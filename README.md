@@ -31,7 +31,7 @@ Thực hiện bởi Nhóm 6, lớp NT132.P12.ANTT, gồm:
 - KVM (Type 1): KVM hoạt động như một hypervisor Type 1, tận dụng nhân Linux để quản lý các máy ảo. Điều này giúp KVM đạt được hiệu suất cao và khả năng cô lập tài nguyên tốt. KVM thích hợp để triển khai trong môi trường doanh nghiệp hoặc đám mây với sự hỗ trợ mạnh mẽ từ các công cụ mã nguồn mở như Virt-Manager, libvirt và QEMU.
 - VMware (Type 2): VMware Workstation là một hypervisor Type 2, được cài đặt trên một hệ điều hành chủ. VMware thường dễ sử dụng và phù hợp để thử nghiệm hoặc chạy các ứng dụng không yêu cầu hiệu suất cao. Tuy nhiên, hiệu suất của VMware thấp hơn KVM do phụ thuộc vào hệ điều hành trung gian và tài nguyên bị phân chia thêm một tầng.
 
-## SO SÁNH GIỮA KVM VÀ VMWARE
+## SO SÁNH HIỆU SUẤT GIỮA KVM VÀ VMWARE
 *(Vui lòng xem chi tiết phần so sánh này trong báo cáo.)*
 
 
