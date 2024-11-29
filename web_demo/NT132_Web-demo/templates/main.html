@@ -1,0 +1,15 @@
+{% extends "master.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+    <div class="main">
+        <h1>Nhóm 6 - Quản Trị Mạng & Hệ Thống - NT132.P12.ANTT</h1>
+        <h3>Thành viên</h3>
+        <a href="{% url 'all_members' %}">Xem thành viên</a>
+        <h3>Bảng</h3>
+        <a href="{% url 'table' %}">Xem bảng</a>
+    </div>
+{% endblock %}
